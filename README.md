@@ -21,7 +21,7 @@ Most of the packages above can be replaced or removed.
 
 ## Developing on windows 
 If you're developing on windows you'll probably miss several dependencies/tools that `node-sass` requires.  
-An easy solution is to get windows-build-tools. Follow the steps bellow to fix it.
+An easy solution is to get windows-build-tools. Follow the steps bellow to do that.
 
 ```
 1. Open powershell as administrator and run:
