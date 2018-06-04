@@ -26,7 +26,7 @@ An easy solution is to get windows-build-tools to do so follow those steps:
 ```bash
 npm run extract-loc
 ```
-will extract all localization to a .po file that is needed for translation, that file will be found in /languages/selected-language\n
+will extract all localization to a .po file that is needed for translation, that file will be found in /languages/selected-language  
 You will need to edit that file and fill in the translation if you want to present the translated text.
 
 ### Run app locally
@@ -50,12 +50,12 @@ npm run cross-env LANGU=fr prod - will build the project with fr localization.
 ```
 
 ## note
-config folder holds `languagesLocalMap` file. `languagesLocalMap` contains a map of locals to their languages. \n
-for example: eng: 'en-US'.\n
+config folder holds `languagesLocalMap` file. `languagesLocalMap` contains a map of locals to their languages.  
+for example: eng: 'en-US'.  
 and is required for each new language you add. More info on localization codes can be [found here](https://en.wikipedia.org/wiki/Language_localisation)
 
 ## Localizing text
-To localize text you can use one of the localization methods 
+To localize text you can use one of the localization methods  
 `gettext, dgettext, ngettext, dngettext, pgettext, dpgettext, npgettext, dnpgettext`
 depending on the use case. more information about those methods can be found at: [gettext api](https://github.com/alexanderwallin/node-gettext#api)
 
