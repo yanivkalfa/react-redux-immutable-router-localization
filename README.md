@@ -58,9 +58,9 @@ For Example for `LANGU=aust` You'll add: `{ aust: 'en-au' }`.
 
 
 ## Localizing text
-To localize text you can use one of the localization methods  
-`gettext, dgettext, ngettext, dngettext, pgettext, dpgettext, npgettext, dnpgettext`
-depending on the use case. more information about those methods can be found at: [gettext api](https://github.com/alexanderwallin/node-gettext#api)
+To localize text you can use one of the localization methods
+`gettext, dgettext, ngettext, dngettext, pgettext, dpgettext, npgettext, dnpgettext`  
+More information about gettext api methods can be found at: [gettext api](https://github.com/alexanderwallin/node-gettext#api)
 
 Example: 
 ```javascript
