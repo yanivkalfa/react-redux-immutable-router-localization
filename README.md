@@ -55,7 +55,7 @@ npm run prod
 Will build the project and create dist folder
 
 ### Building or Running for a specific languages
-You'll have to add `cross-env LANGU=aust` to all of the commends.
+You'll have to add `cross-env LANGU=<languageKey>` to all of the commends.
 e.g:
 
 ```
