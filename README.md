@@ -24,8 +24,10 @@ npm config set msvs_version 2015 -g
 
 ### Before building or running locally:
 ```bash
-npm run extract-loc - will extract all localization to a .po file that is needed for translation, that file will be found in /languages/selected-language
+npm run extract-loc
 ```
+will extract all localization to a .po file that is needed for translation, that file will be found in /languages/selected-language
+You will need to edit that file and fill in the translation if you want to present the translated text.
 
 ### Run app locally
 ```bash
@@ -48,13 +50,14 @@ npm run cross-env LANGU=fr prod - will build the project with fr localization.
 ```
 
 ## note
-config folder holds `languagesLocalMap` file. `languagesLocalMap` contains a map of locals to their languages for example eng: 'en-US'.
+config folder holds `languagesLocalMap` file. `languagesLocalMap` contains a map of locals to their languages. 
+for example: eng: 'en-US'.
 and is required for each new language you add. More info on localization codes can be [found here](https://en.wikipedia.org/wiki/Language_localisation)
 
 ## Localizing text
 To localize text you can use one of the localization methods 
 `gettext, dgettext, ngettext, dngettext, pgettext, dpgettext, npgettext, dnpgettext`
-depending on the use case. more details can be found at :[gettext api](https://github.com/alexanderwallin/node-gettext#api)
+depending on the use case. more information about those methods can be found at: [gettext api](https://github.com/alexanderwallin/node-gettext#api)
 
 Example: 
 ```javascript
@@ -82,5 +85,5 @@ render() {
 }
 ```
 
-almost all of the localization is done on compilation and will not result in a performance hit what so ever,
+almost all of the localization is done at compilation and will not result in a performance hit whatsoever,
 apart from `__gtf` which does a simple replace operation on the text. 
