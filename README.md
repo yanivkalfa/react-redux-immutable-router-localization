@@ -19,11 +19,6 @@ Most of the packages above can be replaced or removed.
 ### Requirments
  - Node v6.0.0 or later
 
-### Install node modules at root of app
-```bash
-npm install
-```
-
 ## Developing on windows 
 If you're developing using windows you'll probably need several dependencies that you'll need to install.
 An easy solution is to get windows-build-tools to do so follow those steps:
@@ -33,6 +28,11 @@ An easy solution is to get windows-build-tools to do so follow those steps:
 2. npm install -g windows-build-tools
 3. wait until its done and then run:
 4. npm config set msvs_version 2015 -g
+```
+
+### Install node modules at root of app
+```bash
+npm install
 ```
 
 ### Before building or running locally:
