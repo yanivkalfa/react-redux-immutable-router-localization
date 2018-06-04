@@ -13,20 +13,20 @@ npm install
 
 ## On windows 
 If you're developing using windows you'll probably need several dependencies that you'll need to install.
-An easy solution is to get windows-build-tools
-eg:
+An easy solution is to get windows-build-tools to do so follow those steps:
+
 ```
-Open powershell as administrator and run:
-npm install -g windows-build-tools
-//wait until its done and then run:
-npm config set msvs_version 2015 -g
+1. Open powershell as administrator and run:
+2. npm install -g windows-build-tools
+3. wait until its done and then run:
+4. npm config set msvs_version 2015 -g
 ```
 
 ### Before building or running locally:
 ```bash
 npm run extract-loc
 ```
-will extract all localization to a .po file that is needed for translation, that file will be found in /languages/selected-language
+will extract all localization to a .po file that is needed for translation, that file will be found in /languages/selected-language\n
 You will need to edit that file and fill in the translation if you want to present the translated text.
 
 ### Run app locally
@@ -50,8 +50,8 @@ npm run cross-env LANGU=fr prod - will build the project with fr localization.
 ```
 
 ## note
-config folder holds `languagesLocalMap` file. `languagesLocalMap` contains a map of locals to their languages. 
-for example: eng: 'en-US'.
+config folder holds `languagesLocalMap` file. `languagesLocalMap` contains a map of locals to their languages. \n
+for example: eng: 'en-US'.\n
 and is required for each new language you add. More info on localization codes can be [found here](https://en.wikipedia.org/wiki/Language_localisation)
 
 ## Localizing text
