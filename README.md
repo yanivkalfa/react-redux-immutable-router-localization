@@ -20,8 +20,8 @@ Most of the packages above can be replaced or removed.
  - Node v6.0.0 or later
 
 ## Developing on windows 
-If you're developing using windows you'll probably need several dependencies that you'll need to install.
-An easy solution is to get windows-build-tools to do so follow those steps:
+If you're developing on windows you'll probably miss several dependencies/tools that `node-sass` requires.  
+An easy solution is to get windows-build-tools. Follow the steps bellow to fix it.
 
 ```
 1. Open powershell as administrator and run:
