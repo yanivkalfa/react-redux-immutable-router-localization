@@ -26,20 +26,20 @@ An easy solution is to get windows-build-tools to do so follow those steps:
 ```bash
 npm run extract-loc
 ```
-will extract all localization to a .po file that is needed for translation, that file will be found in `/languages/selected-language`   
+Will extract all localization to a .po file that is needed for translation, that file will be found in `/languages/selected-language`   
 You will need to edit that file and fill in the translation if you want to present the translated text.
 
 ### Run app locally
 ```bash
 npm run dev
 ```
-will run a dev server with HMR
+Will run a dev server with HMR
 
 ### Build app
 ```bash
 npm run prod
 ```
-will build the project and create dist folder
+Will build the project and create dist folder
 
 ### Building or Running for a specific languages
 You'll have to add `cross-env LANGU=aust` to all of the commends.
@@ -52,14 +52,14 @@ npm run cross-env LANGU=aust prod - will build the project with aust localizatio
 ```
 
 ## note
-config folder holds `languagesLocalMap` file. `languagesLocalMap` contains a map of locals to their languages.  
-and is required for each new language you add. More localization country codes can be [found here](http://www.andiamo.co.uk/resources/iso-language-codes)  
+Config folder holds `languagesLocalMap` file. `languagesLocalMap` contains a map of locals to their languages and is 
+required for each new language you add.  
+More localization country codes can be [found here](http://www.andiamo.co.uk/resources/iso-language-codes)  
 For Example for `LANGU=aust` You'll add: `{ aust: 'en-au' }`.  
 
 
 ## Localizing text
-To localize text you can use one of the localization methods
-`gettext, dgettext, ngettext, dngettext, pgettext, dpgettext, npgettext, dnpgettext`  
+To localize text you can use one of the localization methods `gettext, dgettext, ngettext, dngettext, pgettext, dpgettext, npgettext, dnpgettext`  
 More information about gettext api methods can be found at: [gettext api](https://github.com/alexanderwallin/node-gettext#api)
 
 Example: 
