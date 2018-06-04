@@ -1,5 +1,5 @@
 # react-redux-immutable-router-localization.
-Is a small, simple and production ready react js boilerplate with localization built in.  
+Is a small, simple, and production ready react-js boilerplate with localization built in.  
 This boilerplate utilize: 
 
 -	redux - for state container.
