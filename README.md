@@ -2,15 +2,15 @@
 Is a small, simple and production ready react js boilerplate with localization built in.  
 This boilerplate utilize: 
 
-	-	redux - for state container.
-	-	reselect - to easily create selectors.
-	- redux-actions - to easily create actions.
-	-	redux-thunk - to deal with promises actions.
-	-	immutable js - to make sure we are not mutating states.
-	- react-hot-loader - to make development easier and faster.
-	-	react-router - to have routes.
-	-	react-bootstrap - basic styling and responsiveness.
-	-	react-fontawesome - for nice icons.
+-	redux - for state container.
+-	reselect - to easily create selectors.
+-	redux-actions - to easily create actions.
+-	redux-thunk - to deal with promises actions.
+-	immutable js - to make sure we are not mutating states.
+-	react-hot-loader - to make development easier and faster.
+-	react-router - to have routes.
+-	react-bootstrap - basic styling and responsiveness.
+-	react-fontawesome - for nice icons.
 	
 Most of the packages above can be replaced or removed.
 
