@@ -1,0 +1,94 @@
+$brand-color: #02AB9B;
+$brand-color-hover: #00AB9A;
+
+$dark-matter: #000;
+
+
+// Prempoint future Palette
+
+$necronomicon-navy:        #222d3f;
+$shire-green:              #19bc9c;
+$soviet-red:               #f1431c;
+
+
+// Neutral Blues "Neu Blue" (ranges 0 - 100)
+
+$boring-white:             #fff;     // 0
+$polar:                    #f6f9fd;  // 25
+$ash:                      #e9edf5;  // 50
+$mystic:                   #dee2e9;  // 75
+$iron:                     #d0d5df;  // 100
+$gandalf-grey:             #bbc3d1;  // 200
+$neu-blue-300:             #a3b0c5;  // 300 - NEW, unnamed
+$medium-light-blue-grey:   #8799b4;  // 400
+$neu-blue-500:             #7185a2;  // 500 - NEW, unnamed
+$neu-blue-600:             #576a87;  // 600 - NEW, unnamed
+$uboat-blue:               #45566f;  // 700
+$dust-blue:                #344157;  // 800
+$necronomicon-navy:        #222d3f;  // 900 (aka SSC Dark Navy Blue)
+$neu-blue-1000:            #151c26;  // 1000 - NEW, unnamed
+
+// Blues
+$fremen-blue:              #2f82d8;  // Primary CTA button color
+$fremen-light-blue:        #4993dd;  // Primary CTA button, hover
+$pale-blue:                #a3c8ec;  // Primary CTAbutton, disabled
+
+
+
+// True Greys
+$boring-white:             #fff;
+$marble-grey:              #eee;
+$semantic-ui-sorta-grey:   #d4d4d4;
+$concrete-grey:            #ccc;
+$medium-light-grey:        #bbb;
+$roadside-assistance-grey: #aaa;
+$medium-grey:              #999;
+$nazgul-grey:              #888;
+$lucky-grey:               #777;
+$nightmare-grey:           #222;
+$table-border-grey:        rgba(#222, .1);
+$boring-black:             #000;
+
+
+// Phase these colors out due to repetition of same or similar hex colors
+
+$link-blue:                #4183c4; // phase into "fremen-blue"
+$light-grey:               #f7f8f9; // phase into "polar"
+$medium-blue-grey:         #e9edf5; // phase into "ash"
+$light-ash:                #e9edf5; // phase into "ash"
+$border-grey:              #d0d5df; // phase into "iron"
+$lavendar-grey:            #dee2e9; // phase into "mystic"
+$artic-ocean-blue:         #222d3f; // phase into "necronomicon-navy"
+$menu-item-grey:           #a3a3a3; // phase to "roadside-assistance-grey"
+$mediumer-lighter-greyer:  #ebebeb; // phase to "marble-grey"
+$grey-blue:                #464f54; // phase to "uboat-blue"
+
+
+
+$light-blue:               #6cadbf;
+$purity-blue:              #00aeef;
+$steel-blue:               #4682b4;
+$turquoise:                #40e0d0;
+$medium-blue:              #c0dcf9;
+
+
+// pinks
+$cream-pink:               #fed5cc;
+//oranges
+$butterscotch-orange:      #ffdeae;
+//yellows
+$pale-yellow:              #fff5ca;
+// Yellow / Orange
+$star-gold:                #ffd700;
+// Greens
+$green:                    #008000;
+// Shadows
+$shadow-light-grey: rgba(0, 0, 0, .3);
+
+// Graphs
+$graph-main-line: #586270;
+$graph-bg-area: rgba(#9bc6ee, .2);
+$graph-tooltip-outline:rgba(#777, .81);
+$graph-tooltip-text-fill: #d3d3d3;
+$graph-tooltip-text-date-fill: #d3d3d3;
+$graph-tooltip-line-helper: #c0c0c0;
